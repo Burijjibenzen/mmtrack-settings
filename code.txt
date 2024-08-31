@@ -1,0 +1,5 @@
+python demo/demo_sot.py configs/sot/stark/stark_st1_r50_500e_got10k.py --show --checkpoint checkpoint/stark_st1_r50_500e_got10k_20220223_125400-40ead158.pth --input demo/palace.mp4
+python demo/webcam_sot.py configs/sot/stark/stark_st1_r50_500e_got10k.py --show --checkpoint checkpoint/stark_st1_r50_500e_got10k_20220223_125400-40ead158.pth
+python demo/webcam_sot.py configs/sot/siamese_rpn/siamese_rpn_r50_20e_lasot.py --show --checkpoint checkpoint/siamese_rpn_r50_20e_lasot_20220420_181845-dd0f151e.pth
+python demo/demo_sot.py configs/sot/siamese_rpn/siamese_rpn_r50_20e_lasot.py --show --checkpoint checkpoint/siamese_rpn_r50_20e_lasot_20220420_181845-dd0f151e.pth --input demo/palace.mp4
+python demo/webcam_sot.py configs/sot/mixformer/mixformer_cvt_500e_trackingnet.py --show --checkpoint checkpoint/mixformer_cvt_500e_lasot.pth
